@@ -9,9 +9,9 @@ Market: SF
 > ***Note:*** *This can be a pair programming activity or done independently.*
 
 
-Developing web apps requires a degree of comfort navigating and interacting with your operating system through the command line, and similar to how you'll be practicing writing and running Ruby and JavaScript later in the course, we'll be practicing creating, modifying, and moving files and folders in your terminal to get you practicing Unix commands.
+Developing web apps requires a degree of comfort navigating and interacting with your operating system through the command line.
 
-For this lab, you're going to create files and folders to organize your favorite books, movies, and music - then, you're going to reorganize them.
+For this lab, you're going to create files and folders to organize your favorite books, movies, and music. Then, you're going to reorganize them.
 
 Be sure to use the cheatsheets in the "Additional Resources" section at the bottom of this page in case you get stuck.
 
@@ -21,14 +21,14 @@ Be sure to use the cheatsheets in the "Additional Resources" section at the bott
 
 #### Requirements
 
-- From your root directory, create a folder called "my-favorite-things"; you'll use that folder to do the exercises below
+- From your home directory, create a folder called "my-favorite-things"; you'll use that folder to do the exercises below.
 
 - Organize your favorite books
 
   - in the "my-favorite-things" folder, create a folder called "books"
   - create a folder in books named after your favorite author (e.g. "mark-twain", or "john-grisham", but avoid spaces!)
   - create files named after some of the author's books in the author's folder
-  - open the books folder in atom/sublime
+  - open the books folder in sublime
   - edit each file to put a brief description of the book
 
 
@@ -36,10 +36,10 @@ Be sure to use the cheatsheets in the "Additional Resources" section at the bott
 
   - in the "my-favorite-things" folder, create a folder called "movies"
   - create a folder in movies named after your favorite actor
-  - create a folder in the actor folder named after the actor's breakthrough movie
+  - create a folder in the actor folder named after one of the actor's breakthrough movie
   - create a text file named after the actor's character in the breakthrough movie in the top level "movies" directory
   - move the text file to the breakthrough movie's folder
-  - look back at Sublime/Atom and edit that text file with a description of the character's role in the movie
+  - look back at Sublime and edit that text file with a description of the character's role in the movie
 
 
 - Organize your favorite music
@@ -49,8 +49,8 @@ Be sure to use the cheatsheets in the "Additional Resources" section at the bott
   - create a folder called "disco"
   - create a text file in "disco" called "ymca"
   - delete the "disco" folder
-  - create a folder called "creed"
-  - delete the "creed" folder
+  - create a folder called "ed-sheeran"
+  - delete the "ed-sheeran" folder
   - create folders called "one-direction", "the-strokes", and "rihanna"
   - create a text file in "one-direction" called "what-makes-you-beautiful.txt"
   - make two copies "what-makes-you-beautiful.txt" - one into "the-strokes" and one into "rihanna" and rename those files with songs by those artists
@@ -70,7 +70,7 @@ Be sure to use the cheatsheets in the "Additional Resources" section at the bott
   - create a file called "top-ten-movies.html" in "2015-movies"
   - create a file called "top-ten-songs.html" in "2015-music"
   - create a file called "top-ten-books.html" in "2015-books"
-  - create an ordered list - using HTML! - of the top 10 movies, songs, and books in each of the appropriate files
+  - create an ordered list (using HTML) of the top 10 movies, songs, and books in each of the appropriate files
 
 **Bonus**
 
@@ -89,14 +89,14 @@ No starter code needed for this lab!
 Add your `my-favorite-things` directory to your own fork of this repo and push it to your fork! Like so:
 
 - Click 'Fork' on this github page. You will be redirected to your fork
-- Clone the repo to your local machine by copying the url to the repo, and..
+- Clone the repo to your local machine by copying the url to the repo, and
 - enter `git clone https://github.com/YourUser/THE-REPO-NAME.git` (only with the real repo name and username)
 - Make your changes
 - `git add -A`
 - `git commit -m "some commit message"`
 - `git push origin master`
 
-You can open up your "my-favorite-things" directory in Sublime/Atom, to track your progress. You can also use `tree`.
+You can open up your "my-favorite-things" directory in Sublime, to track your progress. You can also use `tree`.
 
 Here's a look at what your files/folders should look like after each big step in the exercise:
 
